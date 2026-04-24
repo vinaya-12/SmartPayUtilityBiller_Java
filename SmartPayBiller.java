@@ -28,7 +28,7 @@ public class SmartPayBiller {
                 double tax = totalAmount * 0.05;
                 double finalAmount = totalAmount + tax;
 
-                // Receipt
+                
                 System.out.println("\nDIGITAL RECEIPT");
                 System.out.println("Customer Name   : " + name);
                 System.out.println("Units Consumed  : " + units);
